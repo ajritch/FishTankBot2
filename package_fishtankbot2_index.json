@@ -1,0 +1,63 @@
+{
+  "packages":
+  [
+    {
+      "name": "endiatx",
+      "maintainer": "Endiatx",
+      "websiteURL": "https://adafruit.com",
+      "platforms":
+      [
+        {
+          "name": "FishTankBot2 Boards",
+          "architecture": "samd",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "url": "file:///Users/annie/Documents/endiatx/AnnieRadio/fishtankbot2.zip",
+          "archiveFileName": "fishtankbot2.zip",
+          "checksum": "SHA-256:98ccc5047e6825b1919a27d875395dff7557b7dc7ad25a619602d4bd32ee8aeb",
+          "size": "1274818",
+          "boards": [
+            {
+              "name": "FishTankBot2"
+            }        
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "4.8.3-2014q1"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.7.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.8.0-48-gb176eee"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.9.0-arduino"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS-Atmel",
+              "version": "1.2.0"
+            }
+          ]
+        }
+      ],
+      "tools":
+      [
+      ]
+    }
+  ]
+}
