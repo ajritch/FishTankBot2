@@ -12,6 +12,8 @@ Setup guide for installing FishTankBot2 board. This board is based off Adafruit 
   * in `package_fishtankbot2_index.json`, update the `checksum` and `size` fields
     * [Mac] get checksum from `shasum -a 256 fishtankbot2.zip`
     * [Mac] copy size from `ls -l`
+  * in `package_fishtankbot2_index.json`, update the url to the local .zip archive
+    * ie `file:///Users/annie/Documents/endiatx/FishTankBot2/fishtankbot2.zip`
 
 ##### 3. Install FishTankBot2 in Boards Manager
   * Similar instructions: https://learn.adafruit.com/adafruit-feather-m0-basic-proto/using-with-arduino-ide
@@ -23,11 +25,14 @@ Setup guide for installing FishTankBot2 board. This board is based off Adafruit 
 ##### 4. Upload code to the board!
 
 ### Documentation for Custom Boards
+
 Guides for setting up custom board files:
 * https://forum.arduino.cc/index.php?topic=409715.0
 * https://www.hackster.io/wallarug/arduino-ide-creating-custom-boards-89f7a6
+
 Arduino package_index.json formatting details:
 * https://github.com/arduino/Arduino/wiki/Arduino-IDE-1.6.x-package_index.json-format-specification
+
 Mac default compression causing troubles:
 * https://superuser.com/questions/104500/what-is-macosx-folder/996472#996472
 
